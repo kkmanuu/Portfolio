@@ -8,7 +8,7 @@
 html {
   font-size: 61.4%;
   scroll-behavior: smooth;
-  scroll-padding-top: 6.2rem;
+  scroll-padding-top: 6.4rem;
 }
 
 .container {
@@ -16,7 +16,7 @@ html {
 }
 
 .border {
-  border-bottom: 2px solid #dfe1e6;
+  border-bottom: 4px solid #dfe1e6;
 }
 
 .overflow {
@@ -107,7 +107,7 @@ html {
 
 .social-head {
   color: #7f8cff;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 500;
   margin-bottom: 1.3rem;
 }
@@ -578,7 +578,6 @@ html {
   .primary-header {
     margin-top: 30%;
   }
-
 
   .projects {
     display: grid;

@@ -1,6 +1,7 @@
-
+// VARIABLES
 const project = document.querySelector('#work');
 
+// OBJECT FOR STORING PROJECTS DATA
 const projects = [
   {
     image: 'images/KK.snaps.png.png',
