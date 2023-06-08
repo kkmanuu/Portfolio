@@ -1,4 +1,3 @@
-
 const bodyEl = document.querySelector('body');
 const closeBtn = document.querySelector('.close-icon');
 const navBtn = document.querySelector('.nav-btn');
@@ -28,13 +27,11 @@ navLinks.forEach((element) => {
   });
 });
 
-
 const error = document.getElementById('error-message');
 const form = document.querySelector('.contact-form');
 const userEmail = document.getElementById('user-email');
 const errorMessage = 'Please write your email address in lower case';
 form.addEventListener('submit', (event) => {
-
   event.preventDefault();
   const userInput = userEmail.value;
   if (userInput !== userInput.toLowerCase()) {
@@ -45,7 +42,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-//  STORAGE
+// STORAGE
 const userName = document.getElementById('user-name');
 const userMessage = document.getElementById('user-message');
 const contactDetails = {
